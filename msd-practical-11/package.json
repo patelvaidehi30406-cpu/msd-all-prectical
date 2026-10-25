@@ -1,0 +1,24 @@
+{
+  "name": "msd-practical-11-mern-blog",
+  "version": "1.0.0",
+  "description": "Practical 11: Complete Blog Management System using the MERN stack with JWT Auth and Role-Based Access Control",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "server:start": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "client:build": "npm --prefix client run build",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs",
+    "jwt",
+    "rbac",
+    "blog"
+  ],
+  "license": "MIT"
+}
